@@ -33,4 +33,5 @@ public class _0209_12_TodoDeleteController extends HttpServlet {
     resp.sendRedirect("/todo/list_0209");
     }
 
+
 }
