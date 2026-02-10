@@ -16,7 +16,7 @@ public class _0209_16_LogoutController extends HttpServlet {
             throws ServletException, IOException {
         log.info("로그아웃 처리를 담당하느 doPost 입니다. ");
 
-        // 임시 로그아웃 효과,
+        // 임시 로그아웃 효과.
         HttpSession session = req.getSession();
         // 세션의 loginInfo 라는 키를 삭제하면 됩니다.
         session.removeAttribute("loginInfo");

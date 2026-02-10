@@ -25,7 +25,7 @@ public class _0209_19_MemberDAO {
         //DB 서버 연결
         @Cleanup Connection connection = _0209_7_ConnectionUtil.INSTANCE.getConnection();
 
-        // SQL 담아두는 객체,
+        // SQL 담아두는 객체.
         @Cleanup PreparedStatement preparedStatement = connection.prepareStatement(sql);
 
         // mid, mpw 를 와일드 카드 ? 값 넣기.

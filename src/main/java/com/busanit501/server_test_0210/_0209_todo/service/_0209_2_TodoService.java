@@ -17,7 +17,7 @@ import java.util.stream.IntStream;
 public enum _0209_2_TodoService {
     INSTANCE; // static final 생략이 되어있다.
 
-    // 0204, 1 기능 추가. 클래스 가져오기..
+    // 0204, 1 기능 추가. 클래스 가져오기.
     // 1) DB 서버에 작업을 시키는 클래스
     private _0209_3_TodoDAO dao;
     // 2) dto<->vo 클래스를 변환 해주는 기능 클래스
