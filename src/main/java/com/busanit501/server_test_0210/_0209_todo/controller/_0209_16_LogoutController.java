@@ -23,7 +23,7 @@ public class _0209_16_LogoutController extends HttpServlet {
         // 적용하기.
         session.invalidate();
 
-        // remember-me 쿠키 삭제
+        // remember-me 쿠키 삭제.
         // 1. 같은 이름의 빈 쿠키를 새로 생성
         Cookie killCookie = new Cookie("remember-me", "");
 
